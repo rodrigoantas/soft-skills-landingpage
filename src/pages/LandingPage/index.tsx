@@ -30,7 +30,7 @@ const LandingPage: React.FC = () => {
           <img alt="test" src={collab} />
         </section>
         <section className="textsection">
-          <h1>Colaboração</h1>
+          <h1 className="title1">Colaboração</h1>
           <p>
             Para que haja colaboração, é necessário a disponbilidade de no
             mínimo duas pessoas. As duas andam juntas, pois quando há a
@@ -46,7 +46,7 @@ const LandingPage: React.FC = () => {
       </Content>
       <Content>
         <section className="textsection odd-content">
-          <h1>Comunicação</h1>
+          <h1 className="title2">Comunicação</h1>
           <p>
             Essa soft skill é de suma importância, inclusive fora do trabalho.
             Para que o receptor de uma mensagem entenda o que o emissor desta
@@ -68,7 +68,7 @@ const LandingPage: React.FC = () => {
           <img alt="test" src={flex} />
         </section>
         <section className="textsection">
-          <h1>Adaptação</h1>
+          <h1 className="title3">Adaptação</h1>
           <p>
             Também chamado de flexibilidade, é uma soft skill inevitável no
             mercado de trabalho. A capacidade de ser adaptável e flexível é uma
@@ -81,7 +81,9 @@ const LandingPage: React.FC = () => {
           </p>
         </section>
       </Content>
-      <Image alt="test" src={adapt} />
+      <Image>
+        <img alt="test" src={adapt} />
+      </Image>
     </>
   );
 };
