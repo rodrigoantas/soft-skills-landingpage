@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.js": "/soft-skills-landing-page/static/js/main.1fbb5dfd.chunk.js",
-    "main.js.map": "/soft-skills-landing-page/static/js/main.1fbb5dfd.chunk.js.map",
-    "runtime-main.js": "/soft-skills-landing-page/static/js/runtime-main.46c39022.js",
-    "runtime-main.js.map": "/soft-skills-landing-page/static/js/runtime-main.46c39022.js.map",
-    "static/js/2.34c03757.chunk.js": "/soft-skills-landing-page/static/js/2.34c03757.chunk.js",
-    "static/js/2.34c03757.chunk.js.map": "/soft-skills-landing-page/static/js/2.34c03757.chunk.js.map",
-    "index.html": "/soft-skills-landing-page/index.html",
-    "static/js/2.34c03757.chunk.js.LICENSE.txt": "/soft-skills-landing-page/static/js/2.34c03757.chunk.js.LICENSE.txt",
-    "static/media/adapt.9a148441.png": "/soft-skills-landing-page/static/media/adapt.9a148441.png",
-    "static/media/collab.12118cc9.png": "/soft-skills-landing-page/static/media/collab.12118cc9.png",
-    "static/media/comunicate.adb4b9cf.png": "/soft-skills-landing-page/static/media/comunicate.adb4b9cf.png",
-    "static/media/flex.4ab43ad2.png": "/soft-skills-landing-page/static/media/flex.4ab43ad2.png"
+    "main.js": "/soft-skills-landingpage/static/js/main.27b55646.chunk.js",
+    "main.js.map": "/soft-skills-landingpage/static/js/main.27b55646.chunk.js.map",
+    "runtime-main.js": "/soft-skills-landingpage/static/js/runtime-main.06bfbaf9.js",
+    "runtime-main.js.map": "/soft-skills-landingpage/static/js/runtime-main.06bfbaf9.js.map",
+    "static/js/2.e2cb29db.chunk.js": "/soft-skills-landingpage/static/js/2.e2cb29db.chunk.js",
+    "static/js/2.e2cb29db.chunk.js.map": "/soft-skills-landingpage/static/js/2.e2cb29db.chunk.js.map",
+    "index.html": "/soft-skills-landingpage/index.html",
+    "static/js/2.e2cb29db.chunk.js.LICENSE.txt": "/soft-skills-landingpage/static/js/2.e2cb29db.chunk.js.LICENSE.txt",
+    "static/media/adapt.9a148441.png": "/soft-skills-landingpage/static/media/adapt.9a148441.png",
+    "static/media/collab.12118cc9.png": "/soft-skills-landingpage/static/media/collab.12118cc9.png",
+    "static/media/comunicate.adb4b9cf.png": "/soft-skills-landingpage/static/media/comunicate.adb4b9cf.png",
+    "static/media/flex.4ab43ad2.png": "/soft-skills-landingpage/static/media/flex.4ab43ad2.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.46c39022.js",
-    "static/js/2.34c03757.chunk.js",
-    "static/js/main.1fbb5dfd.chunk.js"
+    "static/js/runtime-main.06bfbaf9.js",
+    "static/js/2.e2cb29db.chunk.js",
+    "static/js/main.27b55646.chunk.js"
   ]
 }
