@@ -30,7 +30,7 @@
     "web-vitals": "^0.2.4",
     "yup": "^0.29.3"
   },
-  "homepage": "https://yourgithubname.github.io/your-app-name",
+  "homepage": "https://https://rodrigoantas.github.io/soft-skills-landing-page/",
 
   "scripts": {
     "start": "react-scripts start",
