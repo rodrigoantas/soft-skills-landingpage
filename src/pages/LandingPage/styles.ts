@@ -114,7 +114,7 @@ export const Content = styled.div`
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
 
-      animation: ${colorCycle} 5s ease-in-out infinite;
+      animation: ${colorCycle} 10s ease-in-out infinite;
     }
 
     p {
