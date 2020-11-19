@@ -14,6 +14,7 @@ export default createGlobalStyle`
     background: ${(props) => props.theme.colors.background};
     color: ${(props) => props.theme.colors.primary};
     -webkit-font-smoothing: antialiased;
+
   }
 
 
@@ -38,11 +39,11 @@ html {
 
     min-width: 100vw;
     min-height: 100vh;
-
+    /* margin-left: 300px; */
     display: flex;
-    justify-content: center;
+
     align-items: center;
-    background: ${(props) => props.theme.colors.background}
+    /* background: ${(props) => props.theme.colors.background} */
      }
 }
 
