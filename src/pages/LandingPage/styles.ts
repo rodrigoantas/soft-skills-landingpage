@@ -132,4 +132,13 @@ export const Content = styled.div`
     background-image: linear-gradient(90deg, #ff4d4d, #f9cb28);
     animation-delay: 6.66s !important;
   }
+
+  @media (max-width: 600px) {
+    display: grid;
+    section.image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
 `;

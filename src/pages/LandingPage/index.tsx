@@ -25,8 +25,8 @@ const LandingPage: React.FC = () => {
       </Container>
 
       <Content>
-        <section>
-          <img alt="test" src={collab} />
+        <section className="image">
+          <img alt="colaboração" src={collab} />
         </section>
         <section className="textsection">
           <h1 className="title1">Colaboração</h1>
@@ -58,13 +58,13 @@ const LandingPage: React.FC = () => {
             possíveis conflitos.
           </p>
         </section>
-        <section>
-          <img alt="test" src={comunicate} />
+        <section className="image">
+          <img alt="comunicação" src={comunicate} />
         </section>
       </Content>
       <Content>
-        <section>
-          <img alt="test" src={flex} />
+        <section className="image">
+          <img alt="adaptação" src={flex} />
         </section>
         <section className="textsection">
           <h1 className="title3">Adaptação</h1>

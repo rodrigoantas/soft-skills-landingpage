@@ -37,6 +37,8 @@ html {
 
    @media (max-width: 600px) {
 
+     font-size: 100%;
+
     min-width: 100vw;
     min-height: 100vh;
     /* margin-left: 300px; */
