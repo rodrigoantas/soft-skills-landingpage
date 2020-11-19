@@ -26,10 +26,24 @@ export default createGlobalStyle`
     cursor: pointer;
   }
 
+  ul {
+    list-style-type: none;
+}
 
 
 html {
   font-size: 62.5%;
+
+   @media (max-width: 600px) {
+
+    min-width: 100vw;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: ${(props) => props.theme.colors.background}
+     }
 }
 
   #root {

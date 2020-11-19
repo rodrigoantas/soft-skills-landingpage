@@ -9,6 +9,6 @@ declare module "styled-components" {
       background: string;
     };
 
-    animation: string;
+    footerbg: string;
   }
 }

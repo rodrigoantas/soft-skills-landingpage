@@ -12,17 +12,6 @@ const colorCycle = keyframes`
 }
 `;
 
-export const Image = styled.div`
-  width: 100%;
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-  display: flex;
-  justify-content: center;
-  padding: 6rem;
-  img {
-    max-width: 960px;
-  }
-`;
-
 export const Container = styled.div`
   max-width: 104.8rem;
   padding: 0rem 2.4rem 10rem 2.4rem;

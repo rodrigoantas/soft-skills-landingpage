@@ -1,9 +1,8 @@
 import React from "react";
 
-import { Container, Content, Image } from "./styles";
+import { Container, Content } from "./styles";
 
 import collab from "../../assets/png/collab.png";
-import adapt from "../../assets/png/adapt.png";
 import flex from "../../assets/png/flex.png";
 import comunicate from "../../assets/png/comunicate.png";
 
@@ -81,9 +80,6 @@ const LandingPage: React.FC = () => {
           </p>
         </section>
       </Content>
-      <Image>
-        <img alt="test" src={adapt} />
-      </Image>
     </>
   );
 };

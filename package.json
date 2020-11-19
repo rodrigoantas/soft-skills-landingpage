@@ -1,5 +1,5 @@
 {
-  "homepage": "http://rodrigoantas.github.io/soft-skills-landing-page/",
+  "homepage": "https://rodrigoantas.github.io/soft-skills-landingpage/",
   "name": "soft-skills-landingpage",
   "version": "0.1.0",
   "private": true,
@@ -31,8 +31,6 @@
     "web-vitals": "^0.2.4",
     "yup": "^0.29.3"
   },
-
-
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

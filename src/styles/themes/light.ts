@@ -2,9 +2,9 @@ export default {
   title: "light",
 
   colors: {
-    primary: "#000",
+    primary: "#191919",
     background: "#f5f5f5",
   },
 
-  animation: "colorCycleLight",
+  footerbg: "	#D3D3D3",
 };

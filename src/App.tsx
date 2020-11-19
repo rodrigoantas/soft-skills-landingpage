@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 import dark from "./styles/themes/dark";
 import light from "./styles/themes/light";
@@ -25,6 +26,7 @@ const App: React.FC = () => {
       <Router basename={process.env.PUBLIC_URL}>
         <Header toggleTheme={toggleTheme} />
         <Routes />
+        <Footer />
       </Router>
     </ThemeProvider>
   );
