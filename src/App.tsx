@@ -22,7 +22,7 @@ const App: React.FC = () => {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Header toggleTheme={toggleTheme} />
         <Routes />
       </Router>
