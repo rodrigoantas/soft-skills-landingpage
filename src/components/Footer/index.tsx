@@ -14,7 +14,7 @@ const Header: React.FC = () => {
       <ul>
         <li>
           <a href="https://www.linkedin.com/in/rodrigo-antas-1795071b3/">
-            <SiLinkedin size={80} />
+            <SiLinkedin size={73} />
           </a>
         </li>
         <li>
@@ -28,7 +28,9 @@ const Header: React.FC = () => {
           </a>
         </li>
       </ul>
-      <span> &reg; 2020 Rodrigo Antas for Rocketseat</span>
+      <span>
+        &reg; 2020 - made with &#10084; by Rodrigo Antas for Rocketseat
+      </span>
     </Container>
   );
 };

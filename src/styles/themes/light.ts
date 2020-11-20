@@ -3,7 +3,7 @@ export default {
 
   colors: {
     primary: "#191919",
-    background: "#f5f5f5",
+    background: "radial-gradient(ellipse at bottom, #fefefe 0%, #D3D3D3 100%)",
   },
 
   footerbg: "	#D3D3D3",

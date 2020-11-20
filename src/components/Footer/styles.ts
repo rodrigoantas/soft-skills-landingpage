@@ -3,7 +3,7 @@ import { shade } from "polished";
 
 export const Container = styled.div`
   width: 100%;
-  background: ${(props) => props.theme.footerbg};
+  /* background: ${(props) => props.theme.footerbg}; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,6 +11,8 @@ export const Container = styled.div`
   padding: 6rem;
   img {
     max-width: 104.8rem;
+    padding-bottom: 50px;
+    border-bottom: 1px groove white;
   }
 
   ul {

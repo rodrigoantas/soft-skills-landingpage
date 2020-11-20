@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import { Container, Content } from "./styles";
 
@@ -7,6 +10,9 @@ import flex from "../../assets/png/flex.png";
 import comunicate from "../../assets/png/comunicate.png";
 
 const LandingPage: React.FC = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <>
       <Container>
@@ -24,7 +30,7 @@ const LandingPage: React.FC = () => {
         </h2>
       </Container>
 
-      <Content>
+      <Content data-aos="fade-left">
         <section className="image">
           <img alt="colaboração" src={collab} />
         </section>
@@ -43,7 +49,7 @@ const LandingPage: React.FC = () => {
           </p>
         </section>
       </Content>
-      <Content>
+      <Content data-aos="fade-right">
         <section className="textsection odd-content">
           <h1 className="title2">Comunicação</h1>
           <p>
@@ -62,7 +68,7 @@ const LandingPage: React.FC = () => {
           <img alt="comunicação" src={comunicate} />
         </section>
       </Content>
-      <Content>
+      <Content data-aos="fade-left">
         <section className="image">
           <img alt="adaptação" src={flex} />
         </section>

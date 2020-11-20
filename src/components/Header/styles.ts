@@ -11,4 +11,8 @@ export const Container = styled.div`
   svg {
     margin: 10px;
   }
+
+  @media (max-width: 600px) {
+    justify-content: flex-start;
+  }
 `;
