@@ -3,7 +3,7 @@ import { shade } from "polished";
 
 export const Container = styled.div`
   width: 100%;
-  /* background: ${(props) => props.theme.footerbg}; */
+  background: ${(props) => props.theme.footerbg};
   display: flex;
   flex-direction: column;
   justify-content: center;
