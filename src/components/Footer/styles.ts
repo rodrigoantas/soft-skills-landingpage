@@ -21,6 +21,21 @@ export const Container = styled.div`
 
     font-size: 5rem;
 
+    @media (max-width: 600px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        padding: 50px;
+      }
+
+      > section {
+        padding-left: 0 !important;
+      }
+    }
+
     > section {
       padding-left: 15rem;
       p {

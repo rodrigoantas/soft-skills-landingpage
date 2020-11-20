@@ -21,6 +21,7 @@ export const Container = styled.div`
   }
 
   @media (max-width: 600px) {
-    justify-content: flex-start;
+    justify-content: space-between;
+    flex-direction: row-reverse;
   }
 `;
