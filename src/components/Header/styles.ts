@@ -5,8 +5,16 @@ export const Container = styled.div`
   padding: 10px;
 
   width: 100%;
-  justify-content: flex-end;
+  max-width: 104.8rem;
+  justify-content: space-between;
   align-items: center;
+
+  font-size: 100%;
+
+  section {
+    display: flex;
+    align-items: center;
+  }
 
   svg {
     margin: 10px;

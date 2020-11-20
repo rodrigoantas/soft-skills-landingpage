@@ -88,7 +88,10 @@ export const Content = styled.div`
 
   section.textsection {
     padding: 30px;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     h1 {
       padding: 20px;
       color: #6320ee;
@@ -118,6 +121,10 @@ export const Content = styled.div`
       justify-content: center;
       align-items: center;
       text-align: center;
+    }
+
+    button {
+      margin-top: 30px;
     }
   }
 

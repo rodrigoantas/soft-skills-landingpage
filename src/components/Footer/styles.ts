@@ -9,10 +9,44 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   padding: 6rem;
-  img {
-    max-width: 104.8rem;
+
+  > div {
+    width: 100%;
+    display: flex;
+
     padding-bottom: 50px;
+    padding-top: 50px;
     border-bottom: 1px groove white;
+    border-top: 1px groove white;
+
+    font-size: 5rem;
+
+    > section {
+      padding-left: 15rem;
+      p {
+        font-size: 60%;
+        padding-top: 10px;
+      }
+      section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 80px;
+
+        button {
+          background: #c53030;
+          border-radius: 0%;
+          &:hover {
+            transition: 0.6s;
+            background: #e8505b;
+          }
+        }
+      }
+    }
+  }
+
+  img {
+    max-width: 700px;
   }
 
   ul {

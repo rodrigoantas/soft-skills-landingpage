@@ -4,6 +4,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 import { Container, Content } from "./styles";
+import Button from "../../components/Button";
 
 import collab from "../../assets/png/collab.png";
 import flex from "../../assets/png/flex.png";
@@ -25,7 +26,7 @@ const LandingPage: React.FC = () => {
         <h2>
           Os três pilares que estruturam suas soft skills: Colaboração,
           Comunicação e Adaptação. Você pode ser um gênio mas o sucesso fica
-          mais difícil sem essas habilidades. O seu papel não fica restrito ao
+          mais difícil sem essas habilidades. O seu papel não é restrito ao
           código.
         </h2>
       </Container>
@@ -47,6 +48,12 @@ const LandingPage: React.FC = () => {
             maneira diferente e para isso, é necessário estar disposto a
             colaborar.
           </p>
+          <a
+            target="blank"
+            href="https://blog.wagglbrasil.com/o-que-e-colaboracao-nas-empresas-e-como-impulsiona-la-guia/"
+          >
+            <Button>Ler mais sobre</Button>
+          </a>
         </section>
       </Content>
       <Content data-aos="fade-right">
@@ -63,6 +70,12 @@ const LandingPage: React.FC = () => {
             desenvolvedores precisam saber se comunicar entre si, para resolver
             possíveis conflitos.
           </p>
+          <a
+            target="blank"
+            href="https://www.youtube.com/watch?v=tOzvNTzRMP8&ab_channel=Nubank"
+          >
+            <Button>Ler mais sobre</Button>
+          </a>
         </section>
         <section className="image">
           <img alt="comunicação" src={comunicate} />
@@ -84,6 +97,9 @@ const LandingPage: React.FC = () => {
             disponível para resolvê-las e se adaptar, talvez até aprender outra
             linguagem quando necessário.
           </p>
+          <a target="blank" href="https://fia.com.br/blog/adaptabilidade/">
+            <Button>Ler mais sobre</Button>
+          </a>
         </section>
       </Content>
     </>
