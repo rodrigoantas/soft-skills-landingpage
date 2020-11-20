@@ -20,9 +20,9 @@ export const Container = styled.div`
     flex: 1;
     background: transparent;
     border: 0;
-    color: ${(props) => props.theme.colors.background};
+    color: grey;
     &::placeholder {
-      color: #666360;
+      color: grey;
     }
   }
 
