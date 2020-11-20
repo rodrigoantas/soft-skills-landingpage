@@ -3,5 +3,5 @@
 ### Site feito para desafio do bootcamp da RocketSeat.
 
 ## Header
-<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
+<img src="https://i.imgur.com/BZMQRqL.gif" />
 
