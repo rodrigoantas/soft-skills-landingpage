@@ -20,7 +20,7 @@ const Header: React.FC = () => {
           <p>Se inscreva no nosso programa e se aperfeiçoe nas soft skills!</p>
           <section>
             <Input icon={FaRocket} name="newsletter" />
-            <Button> Inscrever-se</Button>
+            <Button> Enviar </Button>
           </section>
         </section>
       </div>
