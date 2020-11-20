@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/soft-skills-landingpage/static/js/main.85802ace.chunk.js",
-    "main.js.map": "/soft-skills-landingpage/static/js/main.85802ace.chunk.js.map",
+    "main.js": "/soft-skills-landingpage/static/js/main.7c6ed555.chunk.js",
+    "main.js.map": "/soft-skills-landingpage/static/js/main.7c6ed555.chunk.js.map",
     "runtime-main.js": "/soft-skills-landingpage/static/js/runtime-main.06bfbaf9.js",
     "runtime-main.js.map": "/soft-skills-landingpage/static/js/runtime-main.06bfbaf9.js.map",
     "static/css/2.ec02d681.chunk.css": "/soft-skills-landingpage/static/css/2.ec02d681.chunk.css",
-    "static/js/2.bccc192d.chunk.js": "/soft-skills-landingpage/static/js/2.bccc192d.chunk.js",
-    "static/js/2.bccc192d.chunk.js.map": "/soft-skills-landingpage/static/js/2.bccc192d.chunk.js.map",
+    "static/js/2.b0e3234d.chunk.js": "/soft-skills-landingpage/static/js/2.b0e3234d.chunk.js",
+    "static/js/2.b0e3234d.chunk.js.map": "/soft-skills-landingpage/static/js/2.b0e3234d.chunk.js.map",
     "index.html": "/soft-skills-landingpage/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/soft-skills-landingpage/static/css/2.ec02d681.chunk.css.map",
-    "static/js/2.bccc192d.chunk.js.LICENSE.txt": "/soft-skills-landingpage/static/js/2.bccc192d.chunk.js.LICENSE.txt",
+    "static/js/2.b0e3234d.chunk.js.LICENSE.txt": "/soft-skills-landingpage/static/js/2.b0e3234d.chunk.js.LICENSE.txt",
     "static/media/adapt.9a148441.png": "/soft-skills-landingpage/static/media/adapt.9a148441.png",
     "static/media/collab.12118cc9.png": "/soft-skills-landingpage/static/media/collab.12118cc9.png",
     "static/media/comunicate.adb4b9cf.png": "/soft-skills-landingpage/static/media/comunicate.adb4b9cf.png",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.06bfbaf9.js",
     "static/css/2.ec02d681.chunk.css",
-    "static/js/2.bccc192d.chunk.js",
-    "static/js/main.85802ace.chunk.js"
+    "static/js/2.b0e3234d.chunk.js",
+    "static/js/main.7c6ed555.chunk.js"
   ]
 }
